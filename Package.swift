@@ -20,7 +20,7 @@ let package = Package(
         .library(name: "AEPAnalytics", targets: ["AEPAnalytics"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adobe/aepsdk-core-ios.git", .upToNextMajor(from: "5.1.0"))
+        .package(url: "https://github.com/trsxxii/aepsdk-core-ios/", .upToNextMajor(from: "5.3.2"))
     ],
     targets: [
         .target(name: "AEPAnalytics",
